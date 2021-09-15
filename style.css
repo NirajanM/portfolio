@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    /* height: 97vh;
+    width: 97vw; */
+    background-image: url('image/background.jfif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    z-index: 1;
+}
+.nav-bar{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    height: 7vh;
+    font-family: cursive;
+    z-index: 2;
+}
+.nav-bar ul{
+   list-style-type: none;
+   margin: 0;
+   padding: 15px 1px;
+}
+.nav-bar ul li{
+    display: inline;
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 8px;
+}
+.nav-bar ul li a:hover{
+    background-color: rgba(0, 0, 0, 0.596);
+    color: rgb(255, 255, 255);
+}
+.underwork{
+    text-align: center;
+    font-size:30px;
+    font-family: 'Architects Daughter', cursive;
+}
+.greeting{
+    margin: 15px 0px;
+    text-align: center;
+    font-size:55px;
+    font-family: 'Architects Daughter', cursive;
+}
+.greeting p{
+    padding: 10% 0;
+}
+.about-me{
+    display: flex;
+    width: 75%;
+    margin: 0 auto;
+    padding: 33px 0 0 0;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(243, 237, 237, 0.2);
+    border-radius: 15px;
+    z-index: 2;
+    box-shadow: 0px 0px 34px -7px rgba(0,0,0,0.75);
+}
+.text{
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-size: 26px;
+    max-width: 100%;
+}
+.text h1{
+    font-family: 'Caveat', cursive;
+    background-color: rgba(0, 225, 255, 0.753);
+    color: rgba(39, 39, 39, 0.897);
+}
+.roundImage img{
+    width: 250px;
+    border:4px solid rgb(255, 255, 255);
+    border-radius: 100%;
+    opacity: 100;
+}
+
+.flexbox-2{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    font-size: 26px;
+    justify-content:space-evenly;
+    font-family: 'Caveat', cursive;
+    flex-wrap: wrap;
+    
+}
+.flexbox-2 div{
+    margin: 6px;
+    padding: 6px;
+    width: 20vw;
+    
+}
+.beginner,.intermediate,.advance{
+    text-align: center;
+}
+.flexbox-2 div ul{
+    margin: 0;
+    padding: 0;
+}
+
+.flexbox-2 div div ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+@media screen and (max-width: 711px) {
+    .greeting{
+        margin: 15px 0px;
+        text-align: center;
+        font-size: 1.5rem;
+        font-family: 'Architects Daughter', cursive;
+    }
+}
+
+@media screen and (max-width: 567px) {
+    .flexbox-2 div{
+        width: 100%;
+    }
+}
+  
+@media screen and (max-width: 371px) {
+    .flexbox-2 div{
+        width: 100%;
+    }
+        
+    .roundImage img{
+        width: 140px;
+        border:4px solid rgb(255, 255, 255);
+        border-radius: 100%;
+        opacity: 100;
+    }
+    .about-me{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: rgba(243, 237, 237, 0.2);
+        border-radius: 15px;
+        z-index: 2;
+        box-shadow: 0px 0px 34px -7px rgba(0,0,0,0.75);
+    }
+
+  }
+  
+  @media screen and (max-width: 248px) {
+
+    .nav-bar ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0px 1px;
+     }
+    
+     .nav-bar ul li a{
+        text-decoration: none;
+        font-size: 11px;
+        color: rgb(0, 0, 0);
+        padding: 4px;
+    }
+
+  }
