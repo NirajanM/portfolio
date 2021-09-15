@@ -42,6 +42,11 @@ body{
     font-size:30px;
     font-family: 'Architects Daughter', cursive;
 }
+span.animate{
+    color: white;
+    font-family: 'Architects Daughter', cursive;
+    font-weight: bold;
+}
 .greeting{
     margin: 15px 0px;
     text-align: center;
@@ -164,5 +169,25 @@ body{
         color: rgb(0, 0, 0);
         padding: 4px;
     }
+
+  }
+
+  span.animate:before{
+      content: 'Front-End developer';
+      animation: animate infinite 10s;
+  }
+  @keyframes animate{
+      22%{
+        content: 'Graphic Designer.';
+      }
+      44%{
+        content: 'Student.';
+      }
+      66%{
+          content: 'Freelancer.';
+      }
+      88%{
+          content: 'phycyco coder.';
+      }
 
   }
