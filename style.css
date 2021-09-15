@@ -173,7 +173,7 @@ span.animate{
   }
 
   span.animate:before{
-      content: 'Front-End developer';
+      content: 'Front-End developer.';
       animation: animate infinite 10s;
   }
   @keyframes animate{
