@@ -72,8 +72,9 @@ span.animate{
 }
 .text{
     text-align: center;
-    font-family: 'Caveat', cursive;
-    font-size: 26px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 19px;
+    font-style: oblique;
     max-width: 100%;
 }
 .text h1{
@@ -92,11 +93,16 @@ span.animate{
     display: flex;
     padding: 0;
     margin: 0;
-    font-size: 26px;
     justify-content:space-evenly;
-    font-family: 'Caveat', cursive;
     flex-wrap: wrap;
-    
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    font-style: italic;   
+}
+.flexbox-2 h3{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Caveat', cursive;
 }
 .flexbox-2 div{
     margin: 6px;
