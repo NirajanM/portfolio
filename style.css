@@ -1,10 +1,9 @@
-body{
+*{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 .container{
-    /* height: 97vh;
-    width: 97vw; */
     background-image: url('image/background.jfif');
     background-repeat: no-repeat;
     background-size: cover;
@@ -14,16 +13,20 @@ body{
 .nav-bar{
     margin: 0;
     padding: 0;
-    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    background-color:rgb(102, 38, 204,0.3);
     color: white;
-    height: 7vh;
-    font-family: cursive;
+    height: 8vh;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    box-shadow: 0px 10px 24px -7px rgba(0,0,0,0.75);
     z-index: 2;
 }
 .nav-bar ul{
    list-style-type: none;
-   margin: 0;
-   padding: 15px 1px;
+   margin: 0 4px 0 0;
+   padding: 19px 1px;
 }
 .nav-bar ul li{
     display: inline;
@@ -31,10 +34,9 @@ body{
 .nav-bar ul li a{
     text-decoration: none;
     color: rgb(0, 0, 0);
-    padding: 8px;
+    padding: 11px;
 }
 .nav-bar ul li a:hover{
-    background-color: rgba(0, 0, 0, 0.596);
     color: rgb(255, 255, 255);
 }
 .underwork{
@@ -174,19 +176,19 @@ span.animate{
 
   span.animate:before{
       content: 'Front-End developer.';
-      animation: animate infinite 10s;
+      animation: animate infinite 5s;
   }
   @keyframes animate{
-      22%{
+      20%{
         content: 'Graphic Designer.';
       }
-      44%{
+      40%{
         content: 'Student.';
       }
-      66%{
+      60%{
           content: 'Freelancer.';
       }
-      88%{
+      80%{
           content: 'late night coder.';
       }
 
