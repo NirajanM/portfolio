@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .container{
     background-image: url('image/background.jfif');
     background-repeat: no-repeat;
@@ -173,22 +174,18 @@ span.animate{
 
   }
 
-  span.animate:before{
+  span.animate::before{
       content: 'Front-End developer.';
       animation: animate infinite 5s;
   }
   @keyframes animate{
-      20%{
+      25%{
         content: 'Graphic Designer.';
       }
-      40%{
+      50%{
         content: 'Student.';
       }
-      60%{
+      75%{
           content: 'Freelancer.';
       }
-      80%{
-          content: 'late night coder.';
-      }
-
   }
